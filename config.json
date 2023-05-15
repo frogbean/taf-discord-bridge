@@ -1,0 +1,13 @@
+{
+    "irc": {
+        "host": "taforever.com",
+        "name": "uwu",
+        "channels": ["#coreprime"]
+    },
+    "discord" : {
+        "id": 1107347715978960986,
+        "token": "REPLACE_YOUR_BOT_TOKEN",
+        "servers": [{ "server": "SERVER_ID", "channels": ["SERVER_CHANNEL"] }],
+        "filter": ["@here", "@everyone"]
+    }
+}
