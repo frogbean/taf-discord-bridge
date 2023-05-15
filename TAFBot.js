@@ -11,7 +11,7 @@ const discordClient = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIn
 
 discordClient.once(Events.ClientReady, c => {
     console.log(`Ready! Logged in as ${c.user.tag}`)
-    console.log(`share this url ${chalk.whiteBright(shareurl)}`)
+    console.log(`auth url ${chalk.whiteBright(shareurl)}\n`)
 })
 
 // Setup IRC client
@@ -63,8 +63,8 @@ discordClient.on('messageCreate', msg => {
     msg.content += ' ' + attachments.join(' ')
 
     //fuck knows what this does, probably elfish
-    const discord = discords.find(d => d.server === msg.guild.id);
-    if (!discord || !discord.channels.includes(msg.channel.name)) return;
+    const discord = config.discord.servers.find(d => d.server === msg.guild.id)
+    if (!discord || !discord.channels.includes(msg.channel.name)) return
 
     //formatting
     let message = `${msg.content}` //do your formating here, msg.author for name
