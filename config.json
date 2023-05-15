@@ -5,7 +5,7 @@
         "channels": ["#coreprime"]
     },
     "discord" : {
-        "id": 1107347715978960986,
+        "id": "REPLACE_YOUR_BOT_ID",
         "token": "REPLACE_YOUR_BOT_TOKEN",
         "servers": [{ "server": "SERVER_ID", "channels": ["SERVER_CHANNEL"] }],
         "filter": ["@here", "@everyone"]
