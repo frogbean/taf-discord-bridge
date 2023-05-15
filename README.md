@@ -1,6 +1,6 @@
 ## taf-discord-bridge
 
-# Discord Bot Setup Instructions -ChatGPT4 2021 cuttof generation, please use the discord.js for further help https://discord.com/invite/djs
+# Discord Bot Setup Instructions, please use the discord.js for further help https://discord.com/invite/djs
 
 This guide will help you set up your Discord bot using the Discord Developer Portal.
 
